@@ -1,0 +1,55 @@
+{
+  "expo": {
+    "name": "StockMaster",
+    "slug": "stockmaster",
+    "version": "1.3.1",
+    "orientation": "default",
+    "userInterfaceStyle": "automatic",
+    "icon": "./assets/icon.png",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.stockmaster.mobile"
+    },
+    "android": {
+      "package": "com.stockmaster.mobile",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#102E2A"
+      }
+    },
+    "web": {
+      "bundler": "metro",
+      "favicon": "./assets/icon.png"
+    },
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "StockMaster utiliza la c\u00e1mara para identificar productos mediante QR y c\u00f3digos de barras.",
+          "recordAudioAndroid": false,
+          "barcodeScannerEnabled": true
+        }
+      ],
+      "expo-status-bar",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/splash.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#102E2A"
+        }
+      ],
+      "expo-font",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Selecciona una foto para identificar tus productos.",
+          "cameraPermission": "Toma fotos de tus productos para el cat\u00e1logo.",
+          "microphonePermission": false
+        }
+      ],
+      "expo-sharing"
+    ]
+  }
+}

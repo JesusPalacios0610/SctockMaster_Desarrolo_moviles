@@ -1,0 +1,94 @@
+{
+  "version": 1,
+  "products": [
+    {
+      "name": "Arroz extra 1 kg",
+      "code": "7750001000011",
+      "category": "Abarrotes",
+      "stock": 48,
+      "minStock": 12,
+      "cost": 4.5,
+      "unit": "Bolsa",
+      "location": "A-01",
+      "id": "p1"
+    },
+    {
+      "name": "Aceite vegetal 1 L",
+      "code": "7750001000028",
+      "category": "Abarrotes",
+      "stock": 6,
+      "minStock": 10,
+      "cost": 8.9,
+      "unit": "Botella",
+      "location": "A-02",
+      "id": "p2"
+    },
+    {
+      "name": "Azúcar rubia 1 kg",
+      "code": "7750001000035",
+      "category": "Abarrotes",
+      "stock": 32,
+      "minStock": 10,
+      "cost": 3.8,
+      "unit": "Bolsa",
+      "location": "A-01",
+      "id": "p3"
+    },
+    {
+      "name": "Leche evaporada 400 g",
+      "code": "7750001000042",
+      "category": "Abarrotes",
+      "stock": 8,
+      "minStock": 12,
+      "cost": 4.2,
+      "unit": "Lata",
+      "location": "A-03",
+      "id": "p4"
+    },
+    {
+      "name": "Agua mineral 625 ml",
+      "code": "7750001000059",
+      "category": "Bebidas",
+      "stock": 72,
+      "minStock": 24,
+      "cost": 1.4,
+      "unit": "Botella",
+      "location": "B-01",
+      "id": "p5"
+    },
+    {
+      "name": "Café molido 250 g",
+      "code": "7750001000066",
+      "category": "Abarrotes",
+      "stock": 16,
+      "minStock": 5,
+      "cost": 12.5,
+      "unit": "Bolsa",
+      "location": "A-04",
+      "id": "p6"
+    },
+    {
+      "name": "Detergente 800 g",
+      "code": "7750001000073",
+      "category": "Limpieza",
+      "stock": 0,
+      "minStock": 8,
+      "cost": 7.6,
+      "unit": "Bolsa",
+      "location": "C-01",
+      "id": "p7"
+    },
+    {
+      "name": "Jabón de tocador",
+      "code": "7750001000080",
+      "category": "Cuidado personal",
+      "stock": 24,
+      "minStock": 6,
+      "cost": 2.9,
+      "unit": "Unidad",
+      "location": "C-02",
+      "id": "p8"
+    }
+  ],
+  "movements": []
+}

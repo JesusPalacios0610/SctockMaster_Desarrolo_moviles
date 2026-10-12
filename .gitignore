@@ -1,0 +1,17 @@
+node_modules/
+.expo/
+dist/
+web-build/
+*.log
+.env*
+!.env.example
+android/
+ios/
+.DS_Store
+dist-sdk57/
+dist-release/
+server/data/
+*.sqlite*
+dist-team/
+dist-final/
+dist-local/
